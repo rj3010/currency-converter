@@ -16,7 +16,7 @@ function getData() {
 
   xhr.open(
     "GET",
-    "https://api.currencylayer.com/list?access_key=f0442c756a57f105923966553f8b86f4"
+    "http://api.currencylayer.com/list?access_key=f0442c756a57f105923966553f8b86f4"
   );
   xhr.send();
   xhr.onload = function() {
@@ -32,7 +32,7 @@ function getData() {
 
   xhr1.open(
     "GET",
-    "https://api.currencylayer.com/live?access_key=f0442c756a57f105923966553f8b86f4"
+    "http://api.currencylayer.com/live?access_key=f0442c756a57f105923966553f8b86f4"
   );
   xhr1.send();
   xhr1.onload = function() {
